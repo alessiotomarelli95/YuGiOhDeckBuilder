@@ -28,7 +28,7 @@ CREATE TABLE IF NOT EXISTS composizione_deck(
 ```
 
 As the deck-building process requires the user to add cards to their decks from a pre-prepared list,  
-it is also necessary to fill the "carte" (cards) table with a number of entries, before using the program.  
+it is also necessary to fill the "carte" (representing all available cards) table with a number of entries, before using the program.  
 To simplify the process of dealing with Yu-Gi-Oh! cards, only the following fields have been created as requirements:  
 • Coice (Code): an 8-digit string (e.g. 59509952);  
 • Nome (Name): the name on top of a card (e.g. Archlord Kristya);  
